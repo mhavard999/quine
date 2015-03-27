@@ -42,4 +42,4 @@
 
 (princ (let ((s " "))
   (concatenate 'string (first s) (replist s) (second s))))")))
-   (concatenate 'string (first s) (replist s) (second s))))
+  (concatenate 'string (first s) (replist s) (second s))))
