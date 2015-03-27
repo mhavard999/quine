@@ -29,3 +29,13 @@ $ diff quine.js quine2.js
 $ # no output aka no differences - successful quine!
 ```
 
+# It's a quine in Java!
+```
+$ javac Quine.java
+$ mkdir quine2
+# Putting it in a separate dir so it can be compiled without changing file/class names
+$ java Quine.java > quine2/Quine.java
+$ diff Quine.java quine2/Quine.java
+$ # no output aka no differences - successful quine!
+```
+
