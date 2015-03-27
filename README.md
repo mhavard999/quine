@@ -14,3 +14,10 @@ $ clisp quine.lisp > quine2.lisp
 $ diff quine.lisp quine2.lisp
 $ # no output aka no differences - successful quine!
 ```
+
+# It's a quine in Python!
+```
+$ python quine.py > quine2.py
+$ diff quine.py quine2.py
+$ # no output aka no differences - successful quine!
+```
