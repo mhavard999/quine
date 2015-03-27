@@ -21,3 +21,11 @@ $ python quine.py > quine2.py
 $ diff quine.py quine2.py
 $ # no output aka no differences - successful quine!
 ```
+
+# It's a quine in JavaScript!
+```
+$ node quine.js > quine2.js
+$ diff quine.js quine2.js
+$ # no output aka no differences - successful quine!
+```
+
