@@ -38,3 +38,11 @@ $ java Quine > quine2/Quine.java
 $ diff Quine.java quine2/Quine.java
 $ # no output aka no differences - successful quine!
 ```
+
+# It's a quine in Clojure!
+```
+$ cd quine # The whole lein project structure blah blah yadda yadda
+$ lein run > quine2.clj
+$ diff quine2.clj src/quine/core.clj
+$ # no output aka no differences - successful quine!
+```
