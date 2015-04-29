@@ -46,3 +46,11 @@ $ lein run > quine2.clj
 $ diff quine2.clj src/quine/core.clj
 $ # no output aka no differences - successful quine!
 ```
+
+
+
+
+
+
+
+
